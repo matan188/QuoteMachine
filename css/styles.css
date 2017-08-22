@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: #f4f4f4;
+    color: #555;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.container {
+    text-align: center;
+    width: 60%;
+    margin: 50px auto;
+}
+
+.btn {
+    display: inline-block;
+    color: #555;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    border: 2px solid #bdbdbd;
+    color: black;
+    font-size: 115%;
+}
+
+.quote {
+    margin: 40px auto;
+    text-align: left;
+}
